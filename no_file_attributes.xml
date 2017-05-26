@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec0" tests="17" failures="0" errors="0" time="11.182000" timestamp="__timestamp__">
+  <properties/>
+  <testcase classname="spec.executors.collection.dynamo_db.tables_spec" name="Executors::Collection::DynamoDb::Tables should be &lt; Executors::Collection::OtherExecutor" time="0.003000"/>
+  <testcase classname="spec.executors.collection.dynamo_db.tables_spec" name="Executors::Collection::DynamoDb::Tables.perform Missing AObject should raise exception" time="0.170000"/>
+  <testcase classname="spec.executors.collection.dynamo_db.tables_spec" name="Executors::Collection::DynamoDb::Tables.perform Missing CObject should raise exception" time="0.023000"/>
+  <testcase classname="spec.executors.collection.dynamo_db.tables_spec" name="Executors::Collection::DynamoDb::Tables.perform With CObject and AObject should return the payload" time="3.530000"/>
+  <testcase classname="spec.executors.processing.dynamo_db.tables_spec" name="Executors::Processing::DynamoDb::Tables should be &lt; Executors::Processing::ObjectProcessor" time="0.015000"/>
+  <testcase classname="spec.executors.processing.dynamo_db.tables_spec" name="Executors::Processing::DynamoDb::Tables.perform Missing AObject should raise exception" time="0.270000"/>
+  <testcase classname="spec.executors.processing.dynamo_db.tables_spec" name="Executors::Processing::DynamoDb::Tables.perform Missing Customer should raise exception" time="0.021000"/>
+  <testcase classname="spec.executors.processing.dynamo_db.tables_spec" name="Executors::Processing::DynamoDb::Tables.perform With CObject and AObject Empty Payload should do nothing" time="1.530000"/>
+  <testcase classname="spec.executors.processing.dynamo_db.tables_spec" name="Executors::Processing::DynamoDb::Tables.perform With CObject and AObject Payload w/ Context Existing Tables should mark existing as terminated and store new tables" time="1.335000"/>
+  <testcase classname="spec.executors.processing.dynamo_db.tables_spec" name="Executors::Processing::DynamoDb::Tables.perform With CObject and AObject Payload w/ Context New Tables should store tables and request tag collection" time="2.300000"/>
+  <testcase classname="spec.lib.clients.access_mgmt_spec" name="Client::AccessManagement#authenticate Authenticated Token returns object" time="0.351000"/>
+  <testcase classname="spec.lib.clients.access_mgmt_spec" name="Client::AccessManagement#authenticate Unauthenticated User returns nothing" time="0.366000"/>
+  <testcase classname="spec.lib.clients.credential_service_spec" name="=Client::CredentialService#aws Valid CObject and AObject returns the credentials" time="0.864000"/>
+  <testcase classname="spec.workers.processing_assets_spec" name="Workers::ProcessingAssetsWorker.unique_args Failure modes Empty job context should produce a random id" time="0.030000"/>
+  <testcase classname="spec.workers.processing_assets_spec" name="Workers::ProcessingAssetsWorker.unique_args Failure modes No params should produce a random id" time="0.098000"/>
+  <testcase classname="spec.workers.processing_assets_spec" name="Workers::ProcessingAssetsWorker.unique_args With context should return the id" time="0.013000"/>
+  <testcase classname="spec.workers.processing_assets_spec" name="Workers::ProcessingAssetsWorker.unique_args should be &lt; OtherObject::BaseWorker" time="0.008000"/>
+</testsuite>
