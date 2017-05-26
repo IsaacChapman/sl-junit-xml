@@ -1,3 +1,5 @@
+test_pattern:
+  - 'none'
 tests:
   - type: junit
     name: service tests
