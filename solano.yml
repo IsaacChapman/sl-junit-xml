@@ -1,0 +1,6 @@
+tests:
+  - type: junit
+    name: service tests
+    command: cp orig.xml service/rspec.xml
+    report_files:
+      - service/rspec.xml
