@@ -6,3 +6,4 @@ tests:
     command: cp no_file_attributes.xml service/rspec.xml
     report_files:
       - service/rspec.xml
+
