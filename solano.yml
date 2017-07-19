@@ -1,10 +1,11 @@
 test_pattern:
   - 'none'
 tests:
-  - type: junit
-    name: service tests
+  - name: test
+    type: junit
     command: |
       set -o errexit -o pipefail # Exit on error
       cp no_file_attributes.xml service/rspec.xml
     report_files:
-      - service/rspec.xml
+      - "service/*.xml"
+
